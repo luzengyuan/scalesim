@@ -13,15 +13,15 @@ from scalesim.memory.double_buffered_scratchpad_mem import double_buffered_scrat
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-t', metavar='Topology file', type=str,
-                        default="../topologies/conv_nets/test.csv",
+                        default="./topologies/conv_nets/test.csv",
                         help="Path to the topology file"
                         )
     parser.add_argument('-c', metavar='Config file', type=str,
-                        default="../configs/scale.cfg",
+                        default="./configs/scale.cfg",
                         help="Path to the config file"
                         )
     parser.add_argument('-p', metavar='log dir', type=str,
-                        default="../test_runs",
+                        default="./test_runs",
                         help="Path to log dir"
                         )
     parser.add_argument('-i', metavar='input type', type=str,
